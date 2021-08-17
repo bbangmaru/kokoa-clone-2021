@@ -27,3 +27,7 @@
 .screen-header__icons .fa-cog:hover {
     animation: rotateCog 2s linear infinite;
 }
+
+.screen-header #createAccount-header__title {
+    font-size: 21px;
+}
