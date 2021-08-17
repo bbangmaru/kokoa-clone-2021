@@ -1,0 +1,165 @@
+.createAccount-email__title {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.createAccount-email__form {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.createAccount-email__form input {
+    padding: 12px 0px;
+    border: none;
+    padding-right: 120px;
+    font-size: 16px;
+}
+
+.createAccount-email__form i {
+    opacity: 0.3;
+}
+
+.createAccount-email__form button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: white;
+    position: absolute;
+    right: 80px;
+}
+
+.createAccount-email__form button:active {
+    font-size: 12.5px;
+}
+
+.createAccount-email__form span {
+    display: block;
+    margin-right: 0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.createAccount-etc {
+    padding: 0px 30px;
+}
+
+.createAccount-etc ul {
+    opacity: 0.6;
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: -15px;
+}
+
+.createAccount-etc #text {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 120%;
+}
+
+.createAccount-email__inputpw {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.createAccount-email__inputpw input {
+    padding-top: 15px;
+    border: none;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.createAccount-email__inputpw input:focus {
+    border-color: var(--yellow);
+}
+
+.createAccount-email__pw {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.createAccount-email__pw i {
+    position: absolute;
+    right: 30px;
+    opacity: 0.3;
+}
+
+.createAccount-email__pw i:active {
+    font-size: 95%;
+}
+
+.createAccount-email__form #nickname-count {
+    opacity: 0.5;
+}
+
+.createAccount-email__form i:active {
+    font-size: 95%;
+}
+
+.createAccount-phonenumber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.createAccount-phonenum__column {
+    margin-bottom: 5px;
+    padding: 5px 0px;
+}
+
+.createAccount-phonenum__column:first-child {
+    width: 90px;
+    border-right: 1.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.createAccount-phonenum__column:first-child i {
+    margin-left: 30px;
+    opacity: 0.4;
+}
+
+.createAccount-phonenum__column:first-child i:active {
+    font-size: 95%;
+}
+
+.createAccount-phonenum__column:last-child {
+    width: 80%;
+}
+
+.createAccount-phonenum__column:last-child input {
+    border: none;
+    width: 60%;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.createAccount-phonenum__column:last-child i {
+    color: var(--yellow);
+}
+
+#next-form {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0px;
+}
+
+#next-form input {
+    padding: 12px 0px;
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#next-form input:focus {
+    font-size: 85%;
+}
